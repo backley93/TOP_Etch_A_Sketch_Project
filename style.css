@@ -13,3 +13,7 @@
     width: 25%;
     height: 25%;
 }
+
+.gridItem:hover {
+    background-color: black;
+}
