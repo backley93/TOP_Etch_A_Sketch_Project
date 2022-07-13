@@ -1,0 +1,15 @@
+.gridCont {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: none;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridItem {
+    width: 25%;
+    height: 25%;
+}
