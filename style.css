@@ -1,15 +1,16 @@
-.change {
-    border: none;
-    background-color: rgb(199, 199, 199);
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
-    color: white;
+* {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(211, 211, 211);
 }
 
-.buttCont {
-    display: flex;
-    justify-content: center;
+h1 {
+    text-align: center;
+    margin: none;
+    font-size: 64px;
+}
+
+.banner {
+    margin: 20px;
 }
 
 .container {
@@ -17,7 +18,7 @@
     justify-content: center;
 }
 
-.gridCont {
+.gridcont {
     width: 500px;
     height: 500px;
     margin: none;
@@ -27,8 +28,5 @@
     box-shadow: 0 0 5px rgb(0, 0, 0);
     position: absolute;
     top: 25%;
-}
-
-.gridItem:hover {
-    background-color: black;
+    background-color: white;
 }

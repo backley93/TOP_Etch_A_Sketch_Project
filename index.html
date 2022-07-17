@@ -5,17 +5,27 @@
         <title>Etch-A-Sketch Project</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
         <script src="JavaScript.js" defer></script>
     </head>
 
     <body>
-    <div class="buttCont">
-        <button class="change">Click Here.</button>
-    </div>
+        <div class="banner">
+            <h1>Etch-A-Sketch</h1>
+        </div>
     
-    <div class="container">
-        <div class="gridCont"></div>
-    </div>
+        <div class="container">
+            <div class="buttcont">
+                <button class="creategrid">Create Etch-A-Sketch</button>
+                <label for="pickcolor">Choose a color!
+                    <input type="color" class="pickcolor" name="pickcolor">
+                </label>
+                <button class="random">RGB</button>
+                <button class="eraser">Eraser</button>
+                <button class="clear">Clear</button> 
+            </div>
+            <div class="gridcont"></div>
+        </div>
     </body>
 
 </html>
