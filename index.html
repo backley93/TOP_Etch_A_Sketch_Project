@@ -10,21 +10,31 @@
     </head>
 
     <body>
-        <div class="banner">
-            <h1>Etch-A-Sketch</h1>
+
+        <div id="header">
+            <h1>Etch-A-Sketch Project</h1>
         </div>
-    
-        <div class="container">
-            <div class="buttcont">
-                <button class="creategrid">Create Etch-A-Sketch</button>
-                <label for="pickcolor">Choose a color!
-                    <input type="color" class="pickcolor" name="pickcolor">
-                </label>
-                <button class="random">RGB</button>
-                <button class="eraser">Eraser</button>
-                <button class="clear">Clear</button> 
-            </div>
-            <div class="gridcont"></div>
+
+        <div id="buttoncont">
+            <button class="makegrid">Make an Etch-a-Sketch</button>
+            <label>Choose A Color!
+                <input type="color" class="choosecolor" name="choosecolor" value="#000000">
+            </label>
+            <button class="randomcolor">Random Colors!</button>
+            <button class="eraser">Erase</button>
+            <button class="clear">Clear</button>
+        </div>
+
+        <div class="gridsize">
+            <p class="sizetext">Etch-a-Sketch Size: No sketching here!</p>
+        </div>
+
+        <div id="gridcont">
+            <div id="grid"></div>
+        </div>
+
+        <div id="footer">
+            <p>Created and Implemented by Branden for The Odin Project.</p>
         </div>
     </body>
 
