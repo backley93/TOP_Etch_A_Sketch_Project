@@ -91,7 +91,7 @@ input {
     font-weight: bold;
     font-size: 16px;
     text-shadow: 1px 1px black;
-    position: fixed;
+    position: relative;
     bottom: 0%;
     width: 100%;
 }
