@@ -48,6 +48,9 @@ etchSketch.addEventListener('click', (e) => {
         gridBox.style.height = (1/gridSize) * 100 + '%';
         gridBox.classList.add('gridbox')
         grid.appendChild(gridBox);
+        gridBox.addEventListener('mouseenter', (e) => {
+            gridBox.style.backgroundColor = 'black';
+        });
     }
 });
 
@@ -120,6 +123,7 @@ clearButton.addEventListener('click', (e) => {
     grid.innerHTML = "";
     sizeDisplay.textContent = 'Etch-a-Sketch Size: No sketching here!';
     grid.style.visibility = 'hidden';
+    colorPick.value = '#000000';
 });
 
 
